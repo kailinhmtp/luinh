@@ -1,0 +1,49 @@
+/* NewsForm.css */
+.news-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="number"],
+.form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-actions {
+    text-align: right;
+}
+
+.submit-btn,
+.reset-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #6c757d;
+    color: white;
+}
